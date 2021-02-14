@@ -1,0 +1,85 @@
+body{
+font-family: 'Bebas Neue';
+
+}
+.nav-bar{
+position: absolute;
+width: 319px;
+height: 24px;
+left: 979px;
+top: 37px;
+
+}
+.nav-bar button{
+    /* margin-left: 20px; */
+     border:none;
+     background-color: white;
+     color: #3C3C3C;
+     font-size:17px;
+
+}
+section{
+    padding-left:3%;
+    height:700px;
+   padding-top: 3%;
+
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left:7%;
+}
+.heading{
+    font-size: 80px;
+   line-height: 80px;
+   color: #363958;
+}
+.text-lighter{
+    color:#FF8367;
+}
+body p{
+font-size: 16px;
+color: #3E3E3E;
+font-family:Roboto;
+}
+.link-button{
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon,tomato);
+    color: white;
+}
+section img{
+    width: 100%;
+    
+}
+.latest-work{
+ text-align: center;
+ background-color: #E5E5E5;
+}
+.oneThird-width{
+    width: 25%;
+    float: left;
+    padding-left:2%;
+}
+.work-headline{
+    font-size: 24px;
+    color: #363958;  
+}
+.single-work{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height:350px;
+    padding: 2%;
+    background-color: white;
+    margin-left: 20px;
+}
+.oneThird-width img{
+    width: 100%;
+}
+.client-opinion{
+text-align: center;
+background-color: #f7f7f7;
+}
