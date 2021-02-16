@@ -3,27 +3,25 @@ font-family: 'Bebas Neue';
 
 }
 .nav-bar{
-position: absolute;
-width: 319px;
-height: 24px;
-left: 979px;
-top: 37px;
-
+float: right;
 }
 .nav-bar button{
-    /* margin-left: 20px; */
+    margin-left: 20px;
      border:none;
      background-color: white;
      color: #3C3C3C;
      font-size:17px;
+     font-weight: 700;
 
 }
 section{
     padding-left:3%;
     height:700px;
-   padding-top: 3%;
+   padding-top:2%;
 
-
+}
+.top-section{
+    margin-top:5%;
 }
 .half-width{
     width: 40%;
@@ -82,4 +80,66 @@ section img{
 .client-opinion{
 text-align: center;
 background-color: #f7f7f7;
+}
+.single-box{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height:400px;
+    padding: 2%;
+    background-color: white;
+    margin-left: 30px;
+}
+.client-opinion img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.work-inquiry{
+    background-image: url("images/work-inquiry.png");
+    background-repeat: no-repeat;
+   width: 906px;
+   height: 225px;  
+  margin-left: 150px;
+  top: 2116px;
+  text-align: center;
+  border-radius: 30px;
+ margin-top: 7%;
+ background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+}
+#work-inquiry{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 64px;
+    width: 277px;
+  height: 64px;
+  left: 341px;
+ top: 2204px;
+}
+#lets-talk{
+   margin-top: 90px;
+   font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+footer{
+    text-align: center;
+    margin-top: 70px;
+}
+footer p{
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+#gmail{
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958; 
+}
+.icon{
+    width: 40px;
+    height: 40px;
+  margin-left: 30px;
 }
